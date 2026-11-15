@@ -1,0 +1,25 @@
+
+N=1000
+front_insert_1000 ArrayList_ms=0.682 LinkedList_ms=0.359
+middle_get_1000 ArrayList_ms=0.171 LinkedList_ms=1.928
+iterate ArrayList_ms=0.379 LinkedList_ms=0.400
+append_1000 ArrayList_ms=0.126 LinkedList_ms=0.043
+middle_insert_remove_500 ArrayList_ms=0.205 LinkedList_ms=1.775
+front_remove_500 ArrayList_ms=0.050 LinkedList_ms=0.021
+
+N=10000
+front_insert_5000 ArrayList_ms=5.772 LinkedList_ms=0.408
+middle_get_5000 ArrayList_ms=0.614 LinkedList_ms=47.556
+iterate ArrayList_ms=0.607 LinkedList_ms=0.577
+append_5000 ArrayList_ms=0.290 LinkedList_ms=0.322
+middle_insert_remove_1000 ArrayList_ms=0.527 LinkedList_ms=20.329
+front_remove_1000 ArrayList_ms=0.343 LinkedList_ms=0.030
+
+N=50000
+front_insert_5000 ArrayList_ms=30.626 LinkedList_ms=0.242
+middle_get_5000 ArrayList_ms=0.142 LinkedList_ms=261.022
+iterate ArrayList_ms=2.754 LinkedList_ms=2.431
+append_5000 ArrayList_ms=0.579 LinkedList_ms=1.206
+middle_insert_remove_1000 ArrayList_ms=4.195 LinkedList_ms=115.428
+front_remove_1000 ArrayList_ms=5.139 LinkedList_ms=0.030
+UpNext dequeue=1,2,3
