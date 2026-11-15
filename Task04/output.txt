@@ -1,0 +1,18 @@
+
+Medicines=1000
+100k_get_ms HashMap=11.085 TreeMap=22.081 LinkedHashMap=3.978
+ordered_iteration_ms TreeMap=0.635 LinkedHashMap=0.976
+TreeMap first/last=MED000000/MED000999
+LinkedHashMap first=MED000000
+
+Medicines=10000
+100k_get_ms HashMap=2.670 TreeMap=29.627 LinkedHashMap=2.524
+ordered_iteration_ms TreeMap=1.174 LinkedHashMap=0.722
+TreeMap first/last=MED000000/MED009999
+LinkedHashMap first=MED000000
+
+Medicines=50000
+100k_get_ms HashMap=4.798 TreeMap=28.725 LinkedHashMap=4.411
+ordered_iteration_ms TreeMap=3.192 LinkedHashMap=3.011
+TreeMap first/last=MED000000/MED049999
+LinkedHashMap first=MED000000
