@@ -1,0 +1,15 @@
+
+Short ticket fields=6 tickets=1
+String +       average_ms=0.027
+StringBuilder  average_ms=0.012
+StringBuffer   average_ms=0.011
+
+High volume fields=50 tickets=10000
+String +       average_ms=82.177
+StringBuilder  average_ms=13.353
+StringBuffer   average_ms=9.244
+
+Wide ticket fields=200 tickets=3000
+String +       average_ms=99.220
+StringBuilder  average_ms=13.496
+StringBuffer   average_ms=10.743
