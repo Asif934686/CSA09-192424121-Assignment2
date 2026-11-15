@@ -1,0 +1,77 @@
+Reference execution environment: OpenJDK 21.0.12; single container run; timings are machine/JIT dependent.
+
+===== Task01 =====
+
+Short ticket fields=6 tickets=1
+String +       average_ms=0.027
+StringBuilder  average_ms=0.012
+StringBuffer   average_ms=0.011
+
+High volume fields=50 tickets=10000
+String +       average_ms=82.177
+StringBuilder  average_ms=13.353
+StringBuffer   average_ms=9.244
+
+Wide ticket fields=200 tickets=3000
+String +       average_ms=99.220
+StringBuilder  average_ms=13.496
+StringBuffer   average_ms=10.743
+
+===== Task02 =====
+
+N=1000
+front_insert_1000 ArrayList_ms=0.546 LinkedList_ms=0.258
+middle_get_1000 ArrayList_ms=0.265 LinkedList_ms=1.595
+iterate ArrayList_ms=0.197 LinkedList_ms=0.805
+append_1000 ArrayList_ms=0.063 LinkedList_ms=0.044
+
+N=10000
+front_insert_5000 ArrayList_ms=5.893 LinkedList_ms=0.927
+middle_get_5000 ArrayList_ms=0.549 LinkedList_ms=51.385
+iterate ArrayList_ms=0.553 LinkedList_ms=0.676
+append_5000 ArrayList_ms=0.425 LinkedList_ms=0.284
+
+N=50000
+front_insert_5000 ArrayList_ms=28.388 LinkedList_ms=0.477
+middle_get_5000 ArrayList_ms=0.242 LinkedList_ms=276.613
+iterate ArrayList_ms=2.509 LinkedList_ms=2.306
+append_5000 ArrayList_ms=0.431 LinkedList_ms=0.263
+UpNext dequeue=1,2,3
+
+===== Task03 =====
+Corrected unique students: 2
+Distinct IDs retained: 2
+Map de-duplication size: 1
+
+===== Task04 =====
+
+Medicines=1000
+100k_get_ms HashMap=11.085 TreeMap=22.081 LinkedHashMap=3.978
+ordered_iteration_ms TreeMap=0.635 LinkedHashMap=0.976
+TreeMap first/last=MED000000/MED000999
+LinkedHashMap first=MED000000
+
+Medicines=10000
+100k_get_ms HashMap=2.670 TreeMap=29.627 LinkedHashMap=2.524
+ordered_iteration_ms TreeMap=1.174 LinkedHashMap=0.722
+TreeMap first/last=MED000000/MED009999
+LinkedHashMap first=MED000000
+
+Medicines=50000
+100k_get_ms HashMap=4.798 TreeMap=28.725 LinkedHashMap=4.411
+ordered_iteration_ms TreeMap=3.192 LinkedHashMap=3.011
+TreeMap first/last=MED000000/MED049999
+LinkedHashMap first=MED000000
+
+===== Task05 =====
+[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]
+Ranked count=4
+
+===== Task06 =====
+Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+
+===== Task07 =====
+N=1000 ArrayList_front_ms=0.812 ArrayDeque_end_ms=0.222
+N=10000 ArrayList_front_ms=13.338 ArrayDeque_end_ms=1.103
+N=50000 ArrayList_front_ms=384.545 ArrayDeque_end_ms=3.295
+Next=Urgent Song A
