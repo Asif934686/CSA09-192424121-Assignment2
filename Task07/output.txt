@@ -1,0 +1,4 @@
+N=1000 ArrayList_front_ms=0.812 ArrayDeque_end_ms=0.222
+N=10000 ArrayList_front_ms=13.338 ArrayDeque_end_ms=1.103
+N=50000 ArrayList_front_ms=384.545 ArrayDeque_end_ms=3.295
+Next=Urgent Song A
